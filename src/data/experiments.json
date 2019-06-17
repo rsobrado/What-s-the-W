@@ -1,0 +1,30 @@
+[
+	{
+		"name":	"Trance-Silvania",
+		"url":	"http://rsobrado.github.io/halloween2013/",
+		"thumb": "./img/ts.jpg",
+		"desc": "Parallax and CSS animation landing page",
+		"stack": ["HTML5","CSS3", "JS", "Parallax","RWD"]
+	},
+	{
+		"name":	"Tik-Tok",
+		"url":	"http://rsobrado.github.io/Tick-Tock/#/",
+		"thumb": "./img/tt.jpg",
+		"desc": "Digital Clock built with Angular",
+		"stack": ["HTML5","CSS3", "JS", "Angular","RWD"]
+	},
+	{
+		"name":	"Mo",
+		"url":	"http://rsobrado.github.io/mo/",
+		"thumb": "./img/mo.jpg",
+		"desc": "Landing Page and Design",
+		"stack": ["HTML5","CSS3", "JS","RWD"]
+	},
+	{
+		"name":	"Festival DownHill",
+		"url":	"hhttp://rsobrado.github.io/FestivalDH/",
+		"thumb": "./img/dhf.jpg",
+		"desc": "Just another Parallax and CSS landing page",
+		"stack": ["HTML5","CSS3", "JS", "Parallax","RWD"]
+	}
+]
