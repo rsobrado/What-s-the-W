@@ -104,38 +104,3 @@ var loadTech = (stack) => {
   //   "<h3><strong>Humidity</strong> : "+ data.main.humidity+"</h3>" 
   // }
 
-
-$("#submit").on('click',function(){
-  
-    let ciudad = $("#ciudad").val();
-    let myKey = "&units=metric&APPID=d6ac9a8b8d7c463ad353c08b092e0cd9";
-    let myPoint = "https://api.openweathermap.org/data/2.5/weather?q="+ciudad+myKey;
-    
-    if(ciudad!= ''){
-        $.get(myPoint, function (data,status) {
-        
-            // let widget = show(data);
-            // $("#show").html(widget);
-            document.getElementById('show').innerHTML(show(data))
-            
-            // $("#inputVal").val('');
-        })
-    }else{
-        $("#show").html("<h1>Put the name of the region, this is a error!! Alert! Alert!</h1>");
-    }
-});
-
-function show(data){
-  
-  return "<h2>"+data.name+"</h2>" +
-  "<h3><strong>Weather</strong> : "+ data.weather[0].main+"</h3>" +
-  "<h3><strong>Weather</strong> : "+ data.weather[0].description+"</h3>" +
-  "<h3><strong>Temp</strong> : "+ data.main.temp+"</h3>" +
-  "<h3><strong>Humidity</strong> : "+ data.main.humidity+"</h3>" 
-  // console.log(data.name)
-  // console.log(data.weather[0].main)
-  // console.log(data.weather[0].description)
-  // console.log(data.main.temp)
-  // console.log(data.main.humidity)
-}
-
