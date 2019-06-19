@@ -74,26 +74,26 @@ var loadTech = (stack) => {
 // loadCards(projects, projectsContainer);
 // loadCards(experiments, experimentsContainer);
 
-$('.dropdown-toggle').dropdown()
+// $('.dropdown-toggle').dropdown()
 
 
 
-  // $("#submit").on('click',function(){
-  //     let $inputValue = $("#inputVal").val();
-  //     let $myKey = "&units=metric&APPID=d6ac9a8b8d7c463ad353c08b092e0cd9";
-  //     let $myPoint = "https://api.openweathermap.org/data/2.5/weather?q="+$inputValue+$myKey;
-  //     if($inputValue!= ''){
-  //         $.get($myPoint, function (data,status) {
+  $("#submit").on('click',function(){
+      let $inputValue = $("#inputVal").val();
+      let $myKey = "&units=metric&APPID=d6ac9a8b8d7c463ad353c08b092e0cd9";
+      let $myPoint = "https://api.openweathermap.org/data/2.5/weather?q="+$inputValue+$myKey;
+      if($inputValue!= ''){
+          $.get($myPoint, function (data,status) {
           
-  //             let widget = show(data);
-  //             $("#show").html(widget);
+              let widget = show(data);
+              $("#show").html(widget);
               
-  //             // $("#inputVal").val('');
-  //         })
-  //     }else{
-  //         $("#show").html("<h1>Put the name of the region, this is a error!! Alert! Alert!</h1>");
-  //     }
-  // });
+              // $("#inputVal").val('');
+          })
+      }else{
+          $("#show").html("<h1>Put the name of the region, this is a error!! Alert! Alert!</h1>");
+      }
+  });
 
   // function show(data){
   //   return "<h2>"+data.name+"</h2>" +
