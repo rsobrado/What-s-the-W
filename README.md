@@ -1,6 +1,6 @@
 # What's the W
 
-_Wheater, flat, friendly, Responsive template_
+_Weather, flat, friendly, Responsive template_
 
 View complete documentation and live demos at [What's the W](https://zzz.dog).
 
