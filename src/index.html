@@ -2,7 +2,7 @@
 <html>
 <head>
 		<meta charset="utf-8">
-		<title>What's the Wheater</title>
+		<title>What's the Weather</title>
 		<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 		
@@ -12,18 +12,15 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div id="current-wheater" class="col-md-12">
-					<h1>Soleado</h1>
-
+				<div class="col-md-12">
 					<div class="input-group mb-3">
-						<input id="ciudad" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+						<input id="ciudad" type="text" class="form-control" placeholder="Ciudad" aria-label="Recipient's username" aria-describedby="basic-addon2">
 						<div class="input-group-append">
 						<button id="submit" class="btn btn-link" type="button"><i class="fas fa-search"></i></button>
 						</div>
 					</div>
-
-					<h2 class="temp">32°</h2>
-					<span class="wheater-icon"><i class="fas fa-sun"></i></span>
+				</div>
+				<div id="current-weather" class="col-md-12">
 					
 				</div>
 			</div>
