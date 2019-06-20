@@ -15,7 +15,7 @@
 			{
 				"dt":1487246400,
 				"main":{
-					"temp":28,
+					"temp":30,
 					"temp_min":25,
 					"temp_max":28,
 					"pressure":972.73,
@@ -27,7 +27,135 @@
 				"weather":[
 					{
 						"id":800,
+						"main":"Clear",
+						"description":"clear sky",
+						"icon":"01d"
+					}
+				],
+				"clouds":{
+					"all":0
+				},
+				"wind":{
+					"speed":1.81,
+					"deg":247.501
+				},
+				"sys":{
+					"pod":"d"
+				},
+				"dt_txt":"2017-02-16 12:00:00"
+			},
+			{
+				"dt":1487246400,
+				"main":{
+					"temp":12,
+					"temp_min":25,
+					"temp_max":28,
+					"pressure":972.73,
+					"sea_level":1046.46,
+					"grnd_level":972.73,
+					"humidity":90,
+					"temp_kf":5.11
+				},
+				"weather":[
+					{
+						"id":800,
+						"main":"Rain",
+						"description":"clear sky",
+						"icon":"01d"
+					}
+				],
+				"clouds":{
+					"all":0
+				},
+				"wind":{
+					"speed":1.81,
+					"deg":247.501
+				},
+				"sys":{
+					"pod":"d"
+				},
+				"dt_txt":"2017-02-16 12:00:00"
+			},
+			{
+				"dt":1487246400,
+				"main":{
+					"temp":-8,
+					"temp_min":25,
+					"temp_max":28,
+					"pressure":972.73,
+					"sea_level":1046.46,
+					"grnd_level":972.73,
+					"humidity":35,
+					"temp_kf":5.11
+				},
+				"weather":[
+					{
+						"id":800,
 						"main":"Snow",
+						"description":"clear sky",
+						"icon":"01d"
+					}
+				],
+				"clouds":{
+					"all":0
+				},
+				"wind":{
+					"speed":1.81,
+					"deg":247.501
+				},
+				"sys":{
+					"pod":"d"
+				},
+				"dt_txt":"2017-02-16 12:00:00"
+			},
+			{
+				"dt":1487246400,
+				"main":{
+					"temp":16,
+					"temp_min":25,
+					"temp_max":28,
+					"pressure":972.73,
+					"sea_level":1046.46,
+					"grnd_level":972.73,
+					"humidity":75,
+					"temp_kf":5.11
+				},
+				"weather":[
+					{
+						"id":800,
+						"main":"Heavy",
+						"description":"clear sky",
+						"icon":"01d"
+					}
+				],
+				"clouds":{
+					"all":0
+				},
+				"wind":{
+					"speed":1.81,
+					"deg":247.501
+				},
+				"sys":{
+					"pod":"d"
+				},
+				"dt_txt":"2017-02-16 12:00:00"
+			},
+			{
+				"dt":1487246400,
+				"main":{
+					"temp":49,
+					"temp_min":25,
+					"temp_max":28,
+					"pressure":972.73,
+					"sea_level":1046.46,
+					"grnd_level":972.73,
+					"humidity":75,
+					"temp_kf":5.11
+				},
+				"weather":[
+					{
+						"id":800,
+						"main":"Clear",
 						"description":"clear sky",
 						"icon":"01d"
 					}
