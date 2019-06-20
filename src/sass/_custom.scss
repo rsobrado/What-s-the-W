@@ -59,12 +59,12 @@ h4{
 	color: #fff;
 	line-height: 1;
 }
-#current-wheater {
-	padding-top: 50px;
-	height: calc(60vh);
+#current-weather {
+	padding-top: 0;
+	height: calc(45vh);
 }
 #forecast {
-	height: calc(40vh);
+	height: calc(43.5vh);
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	padding: 0;
@@ -115,7 +115,10 @@ h4{
 		width: fit-content;
 		text-align: center;
 		margin: 0 auto;
-		min-width: 200px;
+		max-width: 280px;
+		@media screen and (min-width: $screen-md-min) {
+			min-width: 200px;
+		}
 	}
 }
 
@@ -133,15 +136,13 @@ h4{
 	}
 }
 
-.wheater-icon{
-
-	font-size: 20rem;
-    opacity: 0.15;
+.weather-icon{
+	opacity: 0.15;
     z-index: -9;
     position: absolute;
     left: 50%;
-	transform: translate(-50%, -50%);
-
+	transform: translate(-50%, -55%);
+	font-size: 20rem;
 	@media screen and (min-width: $screen-md-min) {
 		font-size: 30rem;
 	}
