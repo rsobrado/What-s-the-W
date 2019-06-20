@@ -2,7 +2,7 @@
 
 _Weather, flat, friendly, Responsive template_
 
-View complete documentation and live demos at [What's the W](https://zzz.dog).
+View complete documentation and live demos at [What's the W](https://rsobrado.github.io/What-s-the-W).
 
 ## Install
 npm: `npm install`
