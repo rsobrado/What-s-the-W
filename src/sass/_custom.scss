@@ -80,6 +80,14 @@ h4{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+	overflow: hidden;
+	position: relative;
+	i {
+		position: absolute;
+		top: 40%;
+		opacity: 0.25;
+		font-size: 5rem;
+	}
 	&:last-child{
 		border-right: none; 
 	}
@@ -161,27 +169,3 @@ button{
 	}
 }
 
-
-
-.dropdown{
-	width: fit-content;
-	text-align: center;
-	margin: 0 auto;
-	&-menu{
-		background-color: $overlay;
-		.dropdown-item{
-			max-width: 100%;
-			&:hover{
-				background-color: rgba($overlay, 0.5);
-			}
-		}
-		a{
-			color: $gray-prymary;
-		}
-		// transform: translate3d(0, 0, 0) !important;
-		&.show {
-			width: 100%;
-			// transform: translate3d(0px, 41px, 0px);
-		}
-	}
-}
